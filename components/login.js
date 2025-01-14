@@ -105,13 +105,6 @@ function Login() {
             />
           </Form.Item>
 
-          {/* Forgot Password */}
-          <div className="text-left text-white">
-            <a href="/forgot-password" className="text-sm text-white-600 hover:text-green-800">
-              Forgot Password ?
-            </a>
-          </div>
-
           {/* Submit Button */}
           <Form.Item>
             <Button
