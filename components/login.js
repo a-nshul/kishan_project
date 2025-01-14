@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import { Input, Button, Form, message } from "antd";
 import { EyeInvisibleOutlined, EyeOutlined,ExclamationCircleOutlined } from "@ant-design/icons";
 import LeftLogo from "../asset/halcenter.webp";
-import RightLogo from "../asset/Droneacharya-Logo-2048x905.png";
+import RightLogo from "../asset/Droneacharya-Logo-white.png";
 import Background from "../asset/ojas-bg.jpeg";
 
 function Login() {
@@ -49,8 +49,8 @@ function Login() {
         <Image
           src={RightLogo.src}
           alt="Right Logo"
-          width={100}
-          height={100}
+          width={120}
+          height={120}
           className="rounded-full shadow-lg"
         />
       </div>
