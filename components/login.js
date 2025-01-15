@@ -85,7 +85,7 @@ function Login() {
 
           {/* Password Input */}
           <Form.Item
-            label={<span className="text-white">Email</span>}
+            label={<span className="text-white">Password</span>}
             name="password"
             labelCol={{ span: 24 }}
             rules={[
